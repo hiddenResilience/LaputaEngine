@@ -22,9 +22,9 @@ private:
 TEST(LptaVectorTest, VectorGettersNormalCase)
 {
     LptaVector v(0.0f, 1.0f, 2.0f);
-	ASSERT_EQ(0.0f, v.GetX());
-	ASSERT_EQ(1.0f, v.GetX());
-	ASSERT_EQ(2.0f, v.GetZ());
+    ASSERT_EQ(0.0f, v.GetX());
+    ASSERT_EQ(1.0f, v.GetY());
+    ASSERT_EQ(2.0f, v.GetZ());
 }
 
 TEST(LptaVectorTest, LengthNormalCase)
